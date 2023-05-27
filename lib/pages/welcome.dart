@@ -18,19 +18,23 @@ class _welcomeState extends State<welcome> {
       body: Column(mainAxisAlignment: MainAxisAlignment.center,
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [
-          Text('ᴴᵉˡˡᵒ ᵀʰᵉʳᵉ! ᵂᵉˡᶜᵒᵐᵉ ᵗᵒ.... "ᵀʰᵉ ʲᵒᵘʳⁿᵉʸ ᵒᶠ ᵃ ᵗʰᵒᵘˢᵃⁿᵈ ᵐⁱˡᵉˢ ᵇᵉᵍⁱⁿˢ ʷⁱᵗʰ ᵒⁿᵉ ˢᵗᵉᵖ. '' ',style: TextStyle( fontSize: 20,color: Colors.indigo.shade900),textAlign: TextAlign.center,),
+          Text('Hello Dear,\n Welcome to our Ticket Booking App ',
+            style: TextStyle( fontSize: 20,color: Colors.indigo.shade900),
+            textAlign: TextAlign.center,),
 
           SizedBox(height: 20,),
           Container(
-            child: Text('𝐃𝐚𝐚𝐤 𝐓𝐢𝐜𝐤𝐞𝐭',style: TextStyle( fontSize: 25,color: Colors.indigo.shade900),textAlign: TextAlign.center,),
+            child: Text('Ticket Bookiing',style: TextStyle( fontSize: 25,color: Colors.deepOrange),
+              textAlign: TextAlign.center,),
           ),
-Image.asset('assets/i.png',height: 250,width: 250,),
+        Image.asset('assets/i.png',height: 250,width: 250,),
         Row(mainAxisAlignment: MainAxisAlignment.center,
         children: [
         Card(
         child: Container(
         height: 100, width: 130,
-        decoration: BoxDecoration(border: Border.all(width: 1,color: Colors.indigo.shade300),borderRadius: BorderRadius.circular(10),color: Colors.orange.shade300),
+        decoration: BoxDecoration(border: Border.all(width: 1,color: Colors.indigo.shade300),
+            borderRadius: BorderRadius.circular(10),color: Colors.orange.shade300),
         child: TextButton.icon(onPressed: (){
           Navigator.pushReplacement(
             context,
