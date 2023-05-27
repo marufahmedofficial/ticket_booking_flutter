@@ -27,7 +27,7 @@ class _welcomeState extends State<welcome> {
             child: Text('Ticket Bookiing',style: TextStyle( fontSize: 25,color: Colors.deepOrange),
               textAlign: TextAlign.center,),
           ),
-        Image.asset('assets/i.png',height: 250,width: 250,),
+        Image.asset('assets/bus-stop.png',height: 250,width: 250,),
         Row(mainAxisAlignment: MainAxisAlignment.center,
         children: [
         Card(
