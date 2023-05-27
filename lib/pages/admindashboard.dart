@@ -1,15 +1,9 @@
-import 'dart:io';
-
-import 'package:daakTicket/pages/about.dart';
-import 'package:daakTicket/pages/bus_list_page.dart';
-import 'package:daakTicket/pages/schedule.dart';
-import 'package:daakTicket/pages/userList.dart';
-import 'package:daakTicket/pages/userSearchbus.dart';
-import 'package:daakTicket/pages/welcome.dart';
 import 'package:flutter/material.dart';
-import 'package:provider/provider.dart';
-
-import 'adminPage.dart';
+import 'about.dart';
+import 'bus_list_page.dart';
+import 'schedule.dart';
+import 'userList.dart';
+import 'welcome.dart';
 class Dashboard extends StatefulWidget {
   const Dashboard({Key? key}) : super(key: key);
   static const String routeName = '/dashboard';

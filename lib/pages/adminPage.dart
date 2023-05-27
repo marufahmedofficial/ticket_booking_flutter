@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'admindashboard.dart';
+import 'new_bus_add.dart';
 
 class Admin_page extends StatefulWidget {
   const Admin_page({Key? key}) : super(key: key);
