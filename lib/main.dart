@@ -52,8 +52,8 @@ class MyApp extends StatelessWidget {
       routes: {
         LoginPage.routeName:(context)=>const LoginPage(),
         LauncherPage.routeName:(context)=>const LauncherPage(),
-        BusListPage.routeName:(context)=>BusListPage(),
-        NewBusAddPage.routeName:(context)=>NewBusAddPage(),
+        BusListPage.routeName:(context)=>const BusListPage(),
+        NewBusAddPage.routeName:(context)=>const NewBusAddPage(),
         Admin_page.routeName:(context)=>const Admin_page(),
         Dashboard.routeName:(context)=>const Dashboard(),
         BusDetails.routeName:(context)=>const BusDetails(),
