@@ -1,6 +1,17 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+import 'pages/BusDetails.dart';
+import 'pages/adminPage.dart';
+import 'pages/admindashboard.dart';
+import 'pages/bus_list_page.dart';
+import 'pages/launcher_page.dart';
+import 'pages/login_page.dart';
+import 'pages/new_bus_add.dart';
+import 'pages/onboarding.dart';
+import 'pages/user.dart';
+import 'pages/userSearchbus.dart';
+import 'pages/welcome.dart';
 import 'providers/bus_provider.dart';
 import 'providers/user_provider.dart';
 
