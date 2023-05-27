@@ -1,22 +1,8 @@
-
-import 'package:daakTicket/pages/BusDetails.dart';
-import 'package:daakTicket/pages/adminPage.dart';
-import 'package:daakTicket/pages/admindashboard.dart';
-import 'package:daakTicket/pages/bus_list_page.dart';
-import 'package:daakTicket/pages/launcher_page.dart';
-import 'package:daakTicket/pages/login_page.dart';
-import 'package:daakTicket/pages/new_bus_add.dart';
-import 'package:daakTicket/pages/onboarding.dart';
-import 'package:daakTicket/pages/user.dart';
-import 'package:daakTicket/pages/userSearchbus.dart';
-import 'package:daakTicket/pages/welcome.dart';
-import 'package:daakTicket/providers/bus_provider.dart';
-import 'package:daakTicket/providers/ticketprovider.dart';
-import 'package:daakTicket/providers/user_provider.dart';
 import 'package:flutter/material.dart';
-
 import 'package:provider/provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+import 'providers/bus_provider.dart';
+import 'providers/user_provider.dart';
 
 Future main() async{
   WidgetsFlutterBinding.ensureInitialized();
@@ -45,7 +31,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Daak Ticket',
+      title: 'Ticket Booking',
       theme: ThemeData(
 
         primarySwatch: Colors.indigo,
