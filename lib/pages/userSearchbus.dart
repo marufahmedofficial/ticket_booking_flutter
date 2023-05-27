@@ -1,13 +1,10 @@
-import 'package:daakTicket/models/ticketmodel.dart';
-import 'package:daakTicket/pages/bus_list_page.dart';
-import 'package:daakTicket/pages/seat.dart';
-import 'package:daakTicket/pages/welcome.dart';
-import 'package:daakTicket/providers/ticketprovider.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 import 'package:provider/provider.dart';
 import '../utils/constants.dart';
+import 'bus_list_page.dart';
 import 'content_model.dart';
+import 'welcome.dart';
 class Home_page extends StatefulWidget {
   static const String routeName ='/home';
   const Home_page({Key? key}) : super(key: key);

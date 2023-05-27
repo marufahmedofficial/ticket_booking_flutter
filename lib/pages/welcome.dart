@@ -1,7 +1,7 @@
-import 'package:daakTicket/pages/login_page.dart';
-import 'package:daakTicket/pages/user.dart';
-import 'package:daakTicket/pages/userSearchbus.dart';
 import 'package:flutter/material.dart';
+
+import 'login_page.dart';
+import 'user.dart';
 class welcome extends StatefulWidget {
   static const String routeName ='/';
   const welcome({Key? key}) : super(key: key);
