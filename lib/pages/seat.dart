@@ -1,8 +1,8 @@
 
 import 'dart:collection';
-
-import 'package:daakTicket/pages/user.dart';
 import 'package:flutter/material.dart';
+
+import 'user.dart';
 
 class SeatPage extends StatefulWidget {
   static const String routeName ="seatPage";

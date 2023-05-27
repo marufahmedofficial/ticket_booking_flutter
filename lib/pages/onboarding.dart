@@ -1,9 +1,7 @@
-import 'package:daakTicket/pages/welcome.dart';
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-
 import 'content_model.dart';
-import 'login_page.dart';
+import 'welcome.dart';
 
 
 

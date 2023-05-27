@@ -1,9 +1,8 @@
-import 'package:daakTicket/pages/seat.dart';
-import 'package:daakTicket/pages/userSearchbus.dart';
-import 'package:daakTicket/pages/welcome.dart';
 import 'package:flutter/material.dart';
 
 import 'TicketList.dart';
+import 'seat.dart';
+import 'userSearchbus.dart';
 class USer_page extends StatefulWidget {
   static const String routeName = '/user';
   const USer_page({Key? key}) : super(key: key);
