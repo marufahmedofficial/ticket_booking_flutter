@@ -49,7 +49,7 @@ class _LoginPageState extends State<LoginPage> {
                     child: Container(
                         height: 250,
                         width: double.infinity,
-                        child: Image.asset('assets/Bus.jpeg',fit:BoxFit.fill)),
+                        child: Image.asset('assets/bus_admin.jpg',fit:BoxFit.fill)),
                   ),
                   Positioned(
                     top: 7,
