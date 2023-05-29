@@ -1,16 +1,4 @@
 # ticket_booking_flutter
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![241187740-26d13eb5-ddd8a0-4fd5-a6d4-3ebd8accc72a](https://github.com/marufahmedofficial/ticket_booking_flutter/assets/79131390/8e701a94-5c29-4650-b443-ab83ee13e312)
+![241187740-26d13eb5-d8a0-4fd5-ss-3ebd8accc72a](https://github.com/marufahmedofficial/ticket_booking_flutter/assets/79131390/e957d39d-49b0-4b37-8f94-cb9de37b9490)
