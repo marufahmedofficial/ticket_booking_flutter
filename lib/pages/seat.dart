@@ -47,7 +47,7 @@ class _SeatPageState extends State<SeatPage> {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: const [
                       Text(
-                        'Sohag Paribahan',
+                        'Ena Paribahan',
                         style: TextStyle(
                           color: Colors.white,
                           fontSize: 18,

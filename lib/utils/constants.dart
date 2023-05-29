@@ -2,7 +2,7 @@ List<String?> typelist = ['Ac', 'Non-Ac', 'Rooftop'];
 List<String?> place = [
   'Dhaka',
   'Chittagong',
-  'Dinajpur',
+  'Gazipur',
   'Jessore',
   'Comilla',
   'Bogra',
